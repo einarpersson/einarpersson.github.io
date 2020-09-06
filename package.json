@@ -2,7 +2,12 @@
   "name": "einarpersson.github.io",
   "version": "0.1.0",
   "description": "",
-  "keywords": [],
-  "main": "index.html",
-  "dependencies": {}
+  "scripts": {
+    "start": "parcel serve ./index.html",
+    "build": "parcel build ./index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1"
+  }
 }
